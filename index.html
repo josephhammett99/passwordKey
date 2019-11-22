@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="css/style.css">
+
 
 <head>
     <meta charset="UTF-8">
@@ -9,10 +11,12 @@
 </head>
 
 <body>
-    <input type="password" id="pass1" placeholder="password">
-    <button onclick="runPass()">submit</button>
+    <div class="fixed">
+    <input type="password" id="pass1" class="resizeField" placeholder="password">
+    <button onclick="runPass()" class="resizeSub">submit</button>
     <br>
-    <input type="checkbox" id="input" onclick="visible()">
+    <input type="checkbox" class="resizeToggle" id="input" onclick="visible()">
+    </div>
     <script src="js/app.js"></script>
 </body>
 
